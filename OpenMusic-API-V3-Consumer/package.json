@@ -1,0 +1,24 @@
+{
+  "name": "open-music-v3-consumer",
+  "version": "1.0.0",
+  "description": "For the sake of submission.",
+  "main": "consumer.js",
+  "scripts": {
+    "start-dev": "nodemon ./src/consumer.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "Bayu Irsyad",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.6.2",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.12"
+  }
+}
